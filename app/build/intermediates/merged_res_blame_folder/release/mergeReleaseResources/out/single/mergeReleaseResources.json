@@ -1,22 +1,22 @@
 [
     {
-        "merged": "com.dominik.watchface.app-release-12:/xml_watch_face.xml.flat",
-        "source": "com.dominik.watchface.app-main-13:/xml/watch_face.xml"
+        "merged": "com.dominik.watchface.app-release-32:/drawable_watchface_preview.xml.flat",
+        "source": "com.dominik.watchface.app-main-33:/drawable/watchface_preview.xml"
     },
     {
-        "merged": "com.dominik.watchface.app-release-12:/drawable_watchface_preview.xml.flat",
-        "source": "com.dominik.watchface.app-main-13:/drawable/watchface_preview.xml"
+        "merged": "com.dominik.watchface.app-release-32:/xml_watch_face.xml.flat",
+        "source": "com.dominik.watchface.app-main-33:/xml/watch_face.xml"
     },
     {
-        "merged": "com.dominik.watchface.app-release-12:/drawable_tag_heuer_logo.png.flat",
-        "source": "com.dominik.watchface.app-main-13:/drawable/tag_heuer_logo.png"
+        "merged": "com.dominik.watchface.app-release-32:/drawable_tag_heuer_logo.png.flat",
+        "source": "com.dominik.watchface.app-main-33:/drawable/tag_heuer_logo.png"
     },
     {
-        "merged": "com.dominik.watchface.app-release-12:/drawable_omega_logo.png.flat",
-        "source": "com.dominik.watchface.app-main-13:/drawable/omega_logo.png"
+        "merged": "com.dominik.watchface.app-release-32:/drawable_omega_logo.png.flat",
+        "source": "com.dominik.watchface.app-main-33:/drawable/omega_logo.png"
     },
     {
-        "merged": "com.dominik.watchface.app-release-12:/xml_omega_watchface.xml.flat",
-        "source": "com.dominik.watchface.app-main-13:/xml/omega_watchface.xml"
+        "merged": "com.dominik.watchface.app-release-32:/xml_omega_watchface.xml.flat",
+        "source": "com.dominik.watchface.app-main-33:/xml/omega_watchface.xml"
     }
 ]
