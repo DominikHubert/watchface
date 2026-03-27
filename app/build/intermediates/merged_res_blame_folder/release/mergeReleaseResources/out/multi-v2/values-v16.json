@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.dominik.watchface.app-mergeReleaseResources-34:/values-v16/values-v16.xml",
+            "outputFile": "com.dominik.watchface.app-mergeReleaseResources-10:/values-v16/values-v16.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Dominik\\.gradle\\caches\\9.0.0\\transforms\\1a06971f5eb0563bf3ab053c5b7fe2ce\\transformed\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Dominik\\.gradle\\caches\\9.0.0\\transforms\\dc9fe9aef703e16bf11586ee0d5964ba\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {

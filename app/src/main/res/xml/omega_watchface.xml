@@ -1,0 +1,14 @@
+<WatchFace formatVersion="2" xmlns:android="http://schemas.android.com/apk/res/android">
+  <WatchFaceMetadata
+      name="Omega Style"
+      description="Schwarzer Hintergrund mit digitaler Uhrzeit, Datum und Akkustatus"
+      device="round" />
+  <DigitalTimeComplication id="time" position="center" size="wrap_content"
+      textColor="#FFFFFF" font="sans-serif-medium" textSize="96dp" />
+  <TextComplication id="date" position="below_time"
+      textColor="#C0C0C0" textSize="30dp" />
+  <TextComplication id="battery" position="bottom"
+      textColor="#808080" textSize="28dp" source="batteryStatus" />
+  <Image android:src="@drawable/omega_logo"
+      position="top_center" width="40%" />
+</WatchFace>

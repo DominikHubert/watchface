@@ -4,4 +4,5 @@ drawable omega_logo
 drawable tag_heuer_logo
 drawable watchface_preview
 string app_name
+xml omega_watchface
 xml watch_face

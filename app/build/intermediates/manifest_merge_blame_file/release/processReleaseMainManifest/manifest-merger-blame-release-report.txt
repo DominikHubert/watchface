@@ -12,284 +12,60 @@
 11-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:4:5-64
 11-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:4:19-61
 12
-13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:6:5-68
-13-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:6:22-65
-14    <uses-permission android:name="com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA" />
-14-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:7:5-104
-14-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:7:22-101
-15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-15-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:8:5-81
-15-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:8:22-78
-16    <uses-permission android:name="com.google.android.wearable.permission.BIND_WATCH_FACE_CONTROL" />
-16-->[androidx.wear.watchface:watchface-client:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\733ec3678c1354aeea240352111aa1e4\transformed\watchface-client-1.2.1\AndroidManifest.xml:22:5-102
-16-->[androidx.wear.watchface:watchface-client:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\733ec3678c1354aeea240352111aa1e4\transformed\watchface-client-1.2.1\AndroidManifest.xml:22:22-99
-17
-18    <queries>
-18-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:22:5-35:15
-19        <intent>
-19-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:23:9-27:18
-20
-21            <!-- Needed to have visibility on complication data sources installed on the device. -->
-22            <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST" />
-22-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:26:13-112
-22-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:26:21-109
-23        </intent>
-24        <intent>
-24-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:28:9-34:18
-25
-26            <!-- Needed to have visibility on launcher items to handle app shortcuts in complications. -->
-27            <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:31:17-69
-27-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:31:25-66
-28
-29            <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:32:17-77
-29-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:32:27-74
-30        </intent>
-31    </queries>
-32
-33    <permission
-33-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-34        android:name="com.dominik.watchface.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-34-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-35        android:protectionLevel="signature" />
-35-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-36
-37    <uses-permission android:name="com.dominik.watchface.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-37-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-37-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+13    <permission
+13-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.dominik.watchface.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.dominik.watchface.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:6:5-26:19
+20        android:allowBackup="true"
+20-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:7:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+22        android:extractNativeLibs="false"
+23        android:hasCode="false"
+23-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:12:9-32
+24        android:icon="@drawable/omega_logo"
+24-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:8:9-44
+25        android:label="@string/app_name"
+25-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:9:9-41
+26        android:supportsRtl="true"
+26-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:10:9-35
+27        android:theme="@android:style/Theme.DeviceDefault" >
+27-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:11:9-59
+28        <property
+28-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:14:9-16:33
+29            android:name="com.google.wear.watchface.format.version"
+29-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:15:13-68
+30            android:value="2" />
+30-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:16:13-30
+31
+32        <meta-data
+32-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:18:9-20:36
+33            android:name="com.google.android.wearable.standalone"
+33-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:19:13-66
+34            android:value="true" />
+34-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:20:13-33
+35        <meta-data
+35-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:22:9-24:55
+36            android:name="com.google.android.wearable.watchface.wff"
+36-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:23:13-69
+37            android:resource="@xml/omega_watchface" />
+37-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:24:13-52
 38
-39    <application
-39-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:10:5-75:19
-40        android:allowBackup="true"
-40-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:11:9-35
-41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-41-->[androidx.core:core:1.12.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\dc9fe9aef703e16bf11586ee0d5964ba\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-42        android:extractNativeLibs="false"
-43        android:icon="@drawable/omega_logo"
-43-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:12:9-44
-44        android:label="@string/app_name"
-44-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:13:9-41
-45        android:supportsRtl="true"
-45-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:14:9-35
-46        android:theme="@android:style/Theme.DeviceDefault" >
-46-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:15:9-59
-47        <uses-library
-47-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:17:9-19:40
-48            android:name="com.google.android.wearable"
-48-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:18:13-55
-49            android:required="false" />
-49-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:19:13-37
-50
-51        <meta-data
-51-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:21:9-23:36
-52            android:name="com.google.android.wearable.standalone"
-52-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:22:13-66
-53            android:value="true" />
-53-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:23:13-33
-54
-55        <!-- Launcher Activity -->
-56        <activity
-56-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:26:9-41:20
-57            android:name="com.dominik.watchface.MainActivity"
-57-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:27:13-41
-58            android:exported="true"
-58-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:28:13-36
-59            android:label="@string/app_name" >
-59-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:29:13-45
-60            <intent-filter>
-60-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:30:13-33:29
-61                <action android:name="android.intent.action.MAIN" />
-61-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:31:17-69
-61-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:31:25-66
-62
-63                <category android:name="android.intent.category.LAUNCHER" />
-63-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:32:17-77
-63-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:32:27-74
-64            </intent-filter>
-65
-66            <!-- Editor für Wear OS 3+ -->
-67            <intent-filter>
-67-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:36:13-40:29
-68                <action android:name="androidx.wear.watchface.editor.action.WATCH_FACE_EDITOR" />
-68-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:37:17-98
-68-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:37:25-95
-69
-70                <category android:name="androidx.wear.watchface.editor.category.EDITOR" />
-70-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:38:17-91
-70-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:38:27-88
-71                <category android:name="android.intent.category.DEFAULT" />
-71-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:39:17-76
-71-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:39:27-73
-72            </intent-filter>
-73        </activity>
-74
-75        <service
-75-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:43:9-74:19
-76            android:name="com.dominik.watchface.TagStyleWatchFaceService"
-76-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:44:13-53
-77            android:directBootAware="true"
-77-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:45:13-43
-78            android:exported="true"
-78-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:46:13-36
-79            android:label="@string/app_name"
-79-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:47:13-45
-80            android:permission="android.permission.BIND_WALLPAPER" >
-80-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:48:13-67
-81            <intent-filter>
-81-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:50:13-54:29
-82                <action android:name="android.service.wallpaper.WallpaperService" />
-82-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:51:17-85
-82-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:51:25-82
-83
-84                <category android:name="com.google.android.wearable.watchface.category.WATCH_FACE" />
-84-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:52:17-102
-84-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:52:27-99
-85                <category android:name="android.intent.category.DEFAULT" />
-85-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:39:17-76
-85-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:39:27-73
-86            </intent-filter>
-87
-88            <meta-data
-88-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:56:13-58:66
-89                android:name="com.google.android.wearable.watchface.preview"
-89-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:57:17-77
-90                android:resource="@drawable/watchface_preview" />
-90-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:58:17-63
-91            <meta-data
-91-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:59:13-61:66
-92                android:name="com.google.android.wearable.watchface.preview_circular"
-92-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:60:17-86
-93                android:resource="@drawable/watchface_preview" />
-93-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:61:17-63
-94            <meta-data
-94-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:62:13-64:54
-95                android:name="android.service.wallpaper"
-95-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:63:17-57
-96                android:resource="@xml/watch_face" />
-96-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:64:17-51
-97
-98            <!-- Zwingend erforderlich für Jetpack Watchface Library Erkennung -->
-99            <meta-data
-99-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:67:13-69:82
-100                android:name="androidx.wear.watchface.XmlSchemaAndContextId"
-100-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:68:17-77
-101                android:value="com.dominik.watchface.TagStyleWatchFaceService" />
-101-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:69:17-79
-102            <meta-data
-102-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:71:13-73:91
-103                android:name="com.google.android.wearable.watchface.wearableConfigurationAction"
-103-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:72:17-97
-104                android:value="androidx.wear.watchface.editor.action.WATCH_FACE_EDITOR" />
-104-->C:\Users\Dominik\Documents\Android Studio\watchface-omega\app\src\main\AndroidManifest.xml:73:17-88
-105        </service>
-106        <service
-106-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:42:9-58:19
-107            android:name="androidx.wear.watchface.control.WatchFaceControlService"
-107-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:43:13-83
-108            android:directBootAware="true"
-108-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:44:13-43
-109            android:enabled="@bool/watch_face_instance_service_enabled"
-109-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:45:13-72
-110            android:exported="true"
-110-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:46:13-36
-111            android:permission="com.google.android.wearable.permission.BIND_WATCH_FACE_CONTROL" >
-111-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:47:13-96
-112            <meta-data
-112-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:48:13-50:67
-113                android:name="androidx.wear.watchface.api_version"
-113-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:49:17-67
-114                android:value="@integer/watch_face_api_version" />
-114-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:50:17-64
-115            <meta-data
-115-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:51:13-53:67
-116                android:name="androidx.wear.watchface.xml_version"
-116-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:52:17-67
-117                android:value="@integer/watch_face_xml_version" />
-117-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:53:17-64
-118
-119            <intent-filter>
-119-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:55:13-57:29
-120                <action android:name="com.google.android.wearable.action.WATCH_FACE_CONTROL" />
-120-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:56:17-96
-120-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:56:25-93
-121            </intent-filter>
-122        </service>
-123        <!--
-124      Used to configure complications. Applications can remove this using:
-125      <activity
-126	  android:name="androidx.wear.watchface.ComplicationHelperActivity"
-127	  tools:node="remove" />
-128      in their manifest if they do not support complications and want to allow
-129      R8 to remove the code associated with this activity. If the activity is
-130      remove while it is needed, this may lead to a runtime exception of type
-131      android.content.ActivityNotFoundException.
-132        -->
-133        <activity
-133-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:70:9-74:75
-134            android:name="androidx.wear.watchface.ComplicationHelperActivity"
-134-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:71:13-78
-135            android:excludeFromRecents="true"
-135-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:72:13-46
-136            android:exported="false"
-136-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:73:13-37
-137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-137-->[androidx.wear.watchface:watchface:1.2.1] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\21f308050cb0a68d57a2ddc3949b1bb9\transformed\watchface-1.2.1\AndroidManifest.xml:74:13-72
-138
-139        <provider
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-140            android:name="androidx.startup.InitializationProvider"
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
-141            android:authorities="com.dominik.watchface.androidx-startup"
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
-142            android:exported="false" >
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
-143            <meta-data
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-144                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-145                android:value="androidx.startup" />
-145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-146        </provider>
-147
-148        <receiver
-148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-149            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-150            android:directBootAware="false"
-150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-151            android:enabled="true"
-151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-152            android:exported="true"
-152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-153            android:permission="android.permission.DUMP" >
-153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-154            <intent-filter>
-154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-155                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-156            </intent-filter>
-157            <intent-filter>
-157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-158                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-159            </intent-filter>
-160            <intent-filter>
-160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-161                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-162            </intent-filter>
-163            <intent-filter>
-163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-164                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\a7e804903defaa873be7e74311e554d8\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-165            </intent-filter>
-166        </receiver>
-167    </application>
-168
-169</manifest>
+39        <uses-library
+39-->[androidx.wear:wear:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\d3ea7627fb72d685757cd64d905c7ab6\transformed\wear-1.3.0\AndroidManifest.xml:23:9-25:40
+40            android:name="com.google.android.wearable"
+40-->[androidx.wear:wear:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\d3ea7627fb72d685757cd64d905c7ab6\transformed\wear-1.3.0\AndroidManifest.xml:24:13-55
+41            android:required="false" />
+41-->[androidx.wear:wear:1.3.0] C:\Users\Dominik\.gradle\caches\9.0.0\transforms\d3ea7627fb72d685757cd64d905c7ab6\transformed\wear-1.3.0\AndroidManifest.xml:25:13-37
+42    </application>
+43
+44</manifest>
