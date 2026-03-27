@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dominik.watchface.app-mergeReleaseResources-34:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dominik\\.gradle\\caches\\9.0.0\\transforms\\1a06971f5eb0563bf3ab053c5b7fe2ce\\transformed\\appcompat-1.1.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+drawable omega_logo
+drawable tag_heuer_logo
+drawable watchface_preview
+string app_name
+xml watch_face
